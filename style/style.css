@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #121212;
+    /* padding-top: 5px; */
+}
+#corpo {
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    /* border: 1px solid black; */
+    background-color: #323232;
+    /* background-color: #f11123; */
+}
+#cabecalho {
+    /* border: 1px solid black; */
+    border-bottom: #454545 1px solid;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+#imagem {
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 7px;
+    box-shadow: 1px 1px 2px 1px #cecece;
+    outline: #323232 1px solid;
+}
+#imagem:hover:after{
+    content: "10 Provérvios de Salomão";
+    display: inline-block;
+    position: relative;
+    bottom: 30px;
+    padding-left: 10px;
+    margin-right: 30px;
+    font-size: 16px;
+    
+}
+.nav-link {
+    font-size: 20px;
+    border: #45454569 1px solid;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #efefef;
+}
+.nav-link:hover {
+    transition: 800ms;
+}
+.frase-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* background-color: #454545; */
+    height: 300px;
+}
+#frase {
+    font-size: 32px;
+    /* border-bottom: 1px solid #454545; */
+    color: #fff;
+    /* padding: 20px; */
+    /* margin-top: 20px; */
+    font-family: consolas;
+    max-width: 800px;
+    
+}
+.butoes-container{ 
+    width: 100%;
+    border-top: #454545 1px solid;
+    border-bottom: #454545 1px solid;
+}
+#butoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.button-img {
+    /* background-color: #fff; */
+    margin-left: 15px;
+}
+#nova {
+    font-family: 'Times New Roman';
+    font-size: 19px;
+    padding: 12px;
+    padding-right: 20px;
+    border-radius: 100px;
+    background-color: #323232;
+    color: #fff;
+}
+#nova:hover {
+    box-shadow: 0.5px 0.5px 1px 1px #59fd;
+    color: #fff;
+    cursor: pointer;
+    transition: 500ms;
+}
+#salva {
+    font-family: 'Times New Roman';
+    font-size: 19px;
+    padding: 12px;
+    margin-left: 50px;
+    border-radius: 100px;
+    background-color: #323232;
+    color: #fff;
+}
+#salva:hover {
+    box-shadow: 0.5px 0.5px 1px 1px #98fd;
+    cursor: pointer;
+    transition: 500ms;
+}
+
+.resultado-container{
+    margin-top: 60px;
+    width: 100%;
+}
+#resultado{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#listaFrasesSalvas {
+    /* max-width: 90%; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    list-style: none;
+    color: #fff;
+    font-size: 22px;
+    font-family: consolas;
+    gap: 25px;
+}
+li {
+    border-bottom: #454545 1px solid;
+    padding-left: 4px;
+}
+
+li:hover {
+    background-color: #454545;
+    border-radius: 10px;
+    
+}

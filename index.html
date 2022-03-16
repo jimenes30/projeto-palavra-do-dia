@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Projeto: Frase do Dia</title>
+        <script src="./js/script.js"></script>
+        <link rel="stylesheet" href="./style/style.css" type="text/css">
+        <link rel="icon" href="https://img.icons8.com/ios-glyphs/24/000000/storytelling.png" type="img/png">
+        <!-- <link rel="icon" href="https://img.icons8.com/external-others-bzzricon-studio/64/000000/external-bible-easter-others-bzzricon-studio.png" type="img/png"> -->
+    </head>
+    <body>
+        <div id="corpo">
+        <header id="cabecalho">
+            <div id="imagem">
+                <img src="https://img.icons8.com/ios-filled/80/000000/leanpub.png"/>
+            </div>
+            <nav id="nav">
+                <a class="nav-link" href="index.html">FraseMaker</a>
+                <a class="nav-link" href="numero.html">NúmeroMaker</a>
+            </nav>
+        </header>
+
+        <div class="frase-container">
+            <h1 id="frase">Frase do Dia</h1>
+        </div>
+
+        <div class="butoes-container">
+            <div id="butoes">
+                <button id="nova" type="button" onclick="novaFrase()">Nova Frase<img class="button-img" src="https://img.icons8.com/color/20/000000/search.png"/></button>
+                <button id="salva" type="button" onclick="salvaFrase()">Salvar<img class="button-img" src="https://img.icons8.com/external-bearicons-blue-bearicons/20/000000/external-Save-social-media-bearicons-blue-bearicons.png"/></button>
+            </div>
+        </div>
+
+        <div class="resultado-container">
+            <div id="resultado">
+                <ol id="listaFrasesSalvas"></ul>
+            </div>
+        </div>
+        
+        </div>
+    </body>
+</html>
